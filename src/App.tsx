@@ -1,9 +1,11 @@
 import React from 'react';
+import './App.css';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
-import HomePage from './pages/HomePage';
-import ScanPage from './pages/ScanPage';
-import CartPage from './pages/CartPage';
+import HomePage from './pages/HomePage/HomePage';
+import ScanPage from './pages/ScanPage/ScanPage';
+import CartPage from './pages/CartPage/CartPage';
 
 const App: React.FC = () => (
   <CartProvider>
