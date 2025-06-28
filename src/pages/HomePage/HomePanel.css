@@ -1,0 +1,14 @@
+.home-panel {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-panel h1 {
+  margin-bottom: 2rem;
+}
+
+.home-panel button {
+  font-size: 1.5rem;
+  margin: 1rem;
+  width: 200px;
+}

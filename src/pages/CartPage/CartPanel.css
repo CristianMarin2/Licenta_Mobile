@@ -1,0 +1,87 @@
+.cart-panel {
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.back-button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.cart-item strong {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.quantity-controls input {
+  width: 60px;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.quantity-controls button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.quantity-controls button:hover {
+  background-color: #0059b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.generate-button {
+  background-color: #007bff;
+  margin-top: 2rem;
+  padding: 0.9rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
